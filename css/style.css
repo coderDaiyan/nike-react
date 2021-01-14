@@ -20,7 +20,10 @@ p {
 .purple-highlight {
   color: #363958;
 }
-.shoes {
+.nike-card {
+  border: 0;
+}
+.casual-shoes {
   background-color: #f1f1f1;
   border-radius: 20px;
 }
