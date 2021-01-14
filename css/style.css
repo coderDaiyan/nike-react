@@ -7,6 +7,9 @@ h3,
 p {
   font-family: "Roboto", sans-serif;
 }
+.snekers-font {
+  font-family: "Roboto", sans-serif;
+}
 .nav-font {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -26,7 +29,9 @@ p {
 .casual-shoes {
   background-color: #f1f1f1;
   border-radius: 20px;
+  height: 300px;
 }
+
 .shoes-container {
   border-radius: 20px;
 }
