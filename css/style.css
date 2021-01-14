@@ -5,6 +5,13 @@ h1 {
   font-size: 70px;
   font-family: "Bebas Neue", cursive;
 }
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+.nav-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
 .shoe-nav {
   background-color: #fff9f4;
 }
@@ -23,4 +30,19 @@ h1 {
 }
 .purple-highlight {
   color: #363958;
+}
+.shoes {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+.shoes-border {
+  border-radius: 20px;
+}
+.facilities {
+  border-radius: 20px;
+  background-color: white;
+  width: 600px;
+}
+.facilities img {
+  width: 100px;
 }
