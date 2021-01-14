@@ -1,6 +1,26 @@
+p {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 70px;
+  font-family: "Bebas Neue", cursive;
+}
 .shoe-nav {
   background-color: #fff9f4;
 }
 .nike-section img {
-  width: 30%;
+  width: 500px;
+  height: 500px;
+}
+.nike-section {
+  margin-right: 150px;
+}
+.nike-first-section {
+  background-color: #fff9f4;
+}
+.tomato-highlight {
+  color: tomato;
+}
+.purple-highlight {
+  color: #363958;
 }
