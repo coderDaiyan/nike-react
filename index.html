@@ -12,18 +12,24 @@
       crossorigin="anonymous"
     ></script>
     <!-- Bebas Neue font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <!-- Roboto Font -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Header area -->
     <header>
-      <nav class="shoe-nav navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img class="ms-5 w-75" src="resource/Logo, Icon/Logo.png" alt="" />
@@ -42,7 +48,12 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto me-auto mb-2">
               <li class="nav-item">
-                <a class="nav-link nav-font active me-5" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link nav-font active me-5"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-font active me-5" href="#">Product</a>
@@ -67,21 +78,23 @@
     <!-- ./Header area -->
 
     <!-- Main area -->
-    <main>
+    <main class="container">
       <!-- first-section -->
-      <section class="nike-first-section">
+      <section>
         <div class="d-flex">
-          <div class="mb-5 ms-5 nike-section">
+          <div class="mb-5 nike-section">
             <img src="resource/Photos/mask-img.png" alt="" />
           </div>
           <div class="nike-section mt-5">
-            <span class="tomato-highlight"><h1>NIKE REACT</h1></span>
-            <span class="purple-highlight"><h1>INFINITY RUN 2</h1></span>
+            <h1><span class="tomato-highlight">NIKE REACT</span></h1>
+            <h1><span class="purple-highlight">INFINITY RUN 2</span></h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing <p> and typesetting
-              industry.</p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
             </p>
-            <button class="btn btn-primary bg-gradient">BUY NOW</button>
+            <button class="px-5 py-3 button btn btn-primary bg-gradient">
+              <i class="fas fa-shopping-cart"></i> BUY NOW
+            </button>
           </div>
         </div>
       </section>
@@ -92,10 +105,10 @@
         <h1>Casual Shoes</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
-            <div class="card p-3 shoes-border me-5-card shadow-lg h-100">
+            <div class="card p-3 shoes-container me-5-card shadow-lg h-100">
               <img
                 src="resource/Photos/Sneakers/nike-shoe.png"
-                class="card-img-top  shoes"
+                class="card-img-top shoes"
                 alt="..."
               />
               <div class="card-body">
@@ -104,13 +117,19 @@
                   This is a longer card with supporting text below as a natural
                   lead-in to additional.
                 </p>
-                <h5>$120</h5>
-                <a href="#" class="btn btn-primary">BUY NOW</a>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $120
+                  </h2>
+                  <a style="margin-left: 110px" href="#" class="btn btn-primary"
+                    >BUY NOW</a
+                  >
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card p-3 shoes-border me-5-card shadow-lg h-100">
+            <div class="card p-3 shoes-container me-5-card shadow-lg h-100">
               <img
                 src="resource/Photos/Sneakers/sneakers-basketball.png"
                 class="card-img-top shoes"
@@ -119,29 +138,41 @@
               <div class="card-body">
                 <h5 class="card-title">Sneakers Basketball Shoe</h5>
                 <p class="card-text">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
+                  This is a small card with supporting text below as a natural
+                  lead-in to additional.
                 </p>
-                <h5>$320</h5>
-                <a href="#" class="btn btn-primary">BUY NOW</a>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $320
+                  </h2>
+                  <a style="margin-left: 110px" href="#" class="btn btn-primary"
+                    >BUY NOW</a
+                  >
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card p-3 shoes-border me-5-card shadow-lg h-100">
+            <div class="card p-3 shoes-container me-5-card shadow-lg h-100">
               <img
                 src="resource/Photos/Sneakers/sneakers-skate.png"
                 class="card-img-top shoes"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Sneakers Skate Shoe </h5>
+                <h5 class="card-title">Sneakers Skate Shoe</h5>
                 <p class="card-text">
                   This is a wider card with supporting text below as a natural
                   lead-in to additional.
                 </p>
-                <h5>$350</h5>
-                <a href="#" class="btn btn-primary">BUY NOW</a>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $350
+                  </h2>
+                  <a style="margin-left: 110px" href="#" class="btn btn-primary"
+                    >BUY NOW</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -157,17 +188,23 @@
             <div class="card shadow-lg h-100">
               <img
                 src="resource/Photos/Formal/formal-1.png"
-                class="card-img-top shoes"
+                class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Prestige High-Cut Leather </h5>
+                <h5 class="card-title">Prestige High-Cut Leather</h5>
                 <p class="card-text">
                   This is a longer card with supporting text below as a natural
                   lead-in to additional.
                 </p>
-                <h5>$120</h5>
-                <a href="#" class="btn btn-primary">BUY NOW</a>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $120
+                  </h2>
+                  <a style="margin-left: 110px" href="#" class="btn btn-primary"
+                    >BUY NOW</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -175,7 +212,7 @@
             <div class="card shadow-lg h-100">
               <img
                 src="resource/Photos/Formal/formal-2.png"
-                class="card-img-top shoes"
+                class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
@@ -184,8 +221,14 @@
                   This card has supporting text below as a natural lead-in to
                   additional content.
                 </p>
-                <h5>$320</h5>
-                <a href="#" class="btn btn-primary">BUY NOW</a>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $120
+                  </h2>
+                  <a style="margin-left: 110px" href="#" class="btn btn-primary"
+                    >BUY NOW</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -193,7 +236,7 @@
             <div class="card shadow-lg h-100">
               <img
                 src="resource/Photos/Formal/formal-3.png"
-                class="card-img-top shoes rounded"
+                class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
@@ -202,8 +245,14 @@
                   This is a wider card with supporting text below as a natural
                   lead-in to additional.
                 </p>
-                <h5>$350</h5>
-                <a href="#" class="btn btn-primary">BUY NOW</a>
+                <div class="d-flex align-items-center">
+                  <h2 style="font-weight: 800" class="tomato-highlight">
+                    $120
+                  </h2>
+                  <a style="margin-left: 110px" href="#" class="btn btn-primary"
+                    >BUY NOW</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -213,71 +262,76 @@
 
       <!-- Facilities area -->
       <section class="mt-5">
-      <div class="container">
-        <!-- Find the perfect fit -->
-        <div class="row shadow facilities d-flex align-items-center p-5">
-          <div class="col-sm-3">
-           <img src="resource/Logo, Icon/icon-1.png" alt="">
-          </div>
-          <div class="col-sm-9">
-            <div class="row">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6">
+            <div
+              class="d-flex shadow py-3 px-3 mb-5 facilities align-items-center"
+            >
               <div>
-                <h3>Find the Perfect Fit</h3>
-                <p>Everybody is different, which is why we
-                  offer styles for every body.</p>
+                <img src="resource/Logo, Icon/icon-1.png" alt="" />
+              </div>
+              <div>
+                <h2 class="fw-bold">Find the Perfect Fit</h2>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex shadow py-3 px-3 mb-5 facilities align-items-center"
+            >
+              <div>
+                <img src="resource/Logo, Icon/icon-2.png" alt="" />
+              </div>
+              <div>
+                <h2 class="fw-bold">Free Exchanges</h2>
+                <p>One of the many reasons you can shop with peace of mind.</p>
+              </div>
+            </div>
+            <div
+              class="d-flex shadow py-3 px-3 mb-5 facilities align-items-center"
+            >
+              <div>
+                <img src="resource/Logo, Icon/icon-3.png" alt="" />
+              </div>
+              <div>
+                <h2 class="fw-bold">Contact Our Seller</h2>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
               </div>
             </div>
           </div>
-        </div> <br>
-        <!-- Free Exchange -->
-        <div class="row shadow facilities d-flex align-items-center p-5">
-          <div class="col-sm-3">
-           <img src="resource/Logo, Icon/icon-2.png" alt="">
-          </div>
-          <div class="col-sm-9">
-            <div class="row">
-              <div>
-                <h3>Free Exchanges</h3>
-                <p>One of the many reasons you can shop
-                  with peace of mind.</p>
-              </div>
-            </div>
-          </div>
-        </div> <br>
-        <!-- Contact Our Seller -->
-        <div class="row shadow facilities d-flex align-items-center p-5">
-          <div class="col-sm-3">
-           <img src="resource/Logo, Icon/icon-3.png" alt="">
-          </div>
-          <div class="col-sm-9">
-            <div class="row">
-              <div>
-                <h3>Contact Our Seller</h3>
-                <p>They are here to help you. That's quite 
-                  literally what we pay them for.</p>
-              </div>
-            </div>
+          <div class="col-md-6">
+            <img class="vector" src="resource/Logo, Icon/vector.png" alt="" />
           </div>
         </div>
-        <!-- Vector -->
-        <div class="row d-flex align-items-center p-5">
-          <div class="">
-            <div class="row">
-              <div class="col-sm-6 d-flex flex-column-reverse">
-                <img class="w-100" src="resource/Logo, Icon/vector.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
+      </section>
       <!-- ./Facilities area -->
     </main>
     <!-- ./Main area -->
 
     <!-- Footer area -->
-    <footer></footer>
+    <footer>
+      <section
+        id="subscribe"
+        class="footer shadow sub-area mt-5 container d-flex justify-content-center align-items-center"
+      >
+        <div>
+          <h1>subscribe for daily updates !</h1>
+          <h5>Get updates on sales, specials and more</h5>
+          <input class="form-control" type="email" style="width: 300px" />
+          <button type="button" class="btn btn-primary bg-gradient mt-md-2">
+            SUBMIT
+          </button>
+        </div>
+      </section>
+      <section class="copyright mt-5">
+        <p>&copy;2020-2021.Developed By Developer Daiyan.All Rights Reserved</p>
+      </section>
+    </footer>
     <!-- ./Footer area -->
 
     <!-- Bootstrap JS -->

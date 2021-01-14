@@ -1,19 +1,15 @@
-p {
-  font-family: "Roboto", sans-serif;
-}
 h1 {
   font-size: 70px;
   font-family: "Bebas Neue", cursive;
 }
-h3 {
+h2,
+h3,
+p {
   font-family: "Roboto", sans-serif;
 }
 .nav-font {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-}
-.shoe-nav {
-  background-color: #fff9f4;
 }
 .nike-section img {
   width: 500px;
@@ -21,9 +17,6 @@ h3 {
 }
 .nike-section {
   margin-right: 150px;
-}
-.nike-first-section {
-  background-color: #fff9f4;
 }
 .tomato-highlight {
   color: tomato;
@@ -35,14 +28,26 @@ h3 {
   background-color: #f1f1f1;
   border-radius: 20px;
 }
-.shoes-border {
+.shoes-container {
   border-radius: 20px;
 }
 .facilities {
   border-radius: 20px;
   background-color: white;
-  width: 600px;
 }
 .facilities img {
-  width: 100px;
+  width: 120px;
+  height: 120px;
+  padding-right: 15px;
+}
+.vector {
+  width: 100%;
+}
+.sub-area {
+  background-color: #fff9f4;
+  border-radius: 20px;
+  height: 300px;
+}
+.copyright {
+  text-align: center;
 }
